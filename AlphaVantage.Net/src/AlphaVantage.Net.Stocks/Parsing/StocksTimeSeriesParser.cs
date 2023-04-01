@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using AlphaVantage.Net.Common.Intervals;
 using AlphaVantage.Net.Common.Parsing;
 using AlphaVantage.Net.Common.TimeSeries;
+using AlphaVantage.Net.Stocks.Model;
 
 // ReSharper disable SimplifyConditionalTernaryExpression
 

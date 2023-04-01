@@ -1,6 +1,6 @@
 using AlphaVantage.Net.Common.TimeSeries;
 
-namespace AlphaVantage.Net.Stocks
+namespace AlphaVantage.Net.Stocks.Model
 {
     public class StockTimeSeries : TimeSeriesBase<StockDataPoint>
     {
