@@ -15,10 +15,4 @@ namespace AlphaVantage.Net.Stocks.Model
         public string? Symbol { get; set; }
         public List<AnnualEarning> AnnualEarnings { get; set; }
     }
-
-    public class AnnualEarning
-    {
-        public string? FiscalDateEnding { get; set; }
-        public string? ReportedEPS { get; set; }
-    }
 }
