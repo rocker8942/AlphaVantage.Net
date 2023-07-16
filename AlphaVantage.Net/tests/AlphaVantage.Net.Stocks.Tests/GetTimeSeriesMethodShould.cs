@@ -4,6 +4,7 @@ using AlphaVantage.Net.Common.Intervals;
 using AlphaVantage.Net.Common.Size;
 using AlphaVantage.Net.Core.Client;
 using AlphaVantage.Net.Stocks.Client;
+using AlphaVantage.Net.Stocks.Model;
 using AlphaVantage.Net.TestUtils;
 using FluentAssertions;
 using Xunit;
