@@ -1,16 +1,12 @@
-![GitHub](https://img.shields.io/github/license/LutsenkoKirill/AlphaVantage.Net)
+![GitHub](https://img.shields.io/github/license/rocker8942/AlphaVantage.Net)
 
 # AlphaVantage.Net
 The most popular .Net client library for [**Alpha Vantage API**](https://www.alphavantage.co/).  
+This repository is forked from https://github.com/kirlut/AlphaVantage.Net
 
-# Release notes for version 2:
-- Most of the library classes were rewritten from scratch, keeping in mind all issues that were opened for the previous release. 
-- New client works with `System.Text.Json` under the hood which is faster than classic `Newtonsoft Json` 
-- Now you can create client's instances with 6 different constructors. It  gives you access to underlying `HttpClient` + allow you to create wrappers around it if needed.  
-- All packages were written using newest C# `Nullable reference types` feature, to reduce possible bugs
 
 # Packages: 
-- [**AlphaVantage.Net.Core**](#alphavantagenetcore) - low-level client for Alpha Vantage API based on `HttpClient` and `System.Text.Json`
+- [**AlphaVantage.Net.Core**](#alphavantagenetcore) - low-level client for Alpha Vantage API based on `HttpClient`
 ### Fully typed clients:
 - [**AlphaVantage.Net.Stocks**](#alphavantagenetstocks) - [stock time series](https://www.alphavantage.co/documentation/#time-series-data).
 - [**AlphaVantage.Net.Forex**](#alphavantagenetforex) - [Forex data](https://www.alphavantage.co/documentation/#fx)
